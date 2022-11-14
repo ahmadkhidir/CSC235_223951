@@ -62,7 +62,7 @@ int main(void) {
 	int MAX_LINE_LENGTH = 100;
 	char path[MAX_BUFFER];
 	getcwd(path, MAX_BUFFER);
-	strcat(path, "\\src\\adam.in");
+	strcat(path, "\\adam.in");
 	FILE *ftpr;
 	char input[MAX_LINE_LENGTH];
 	ftpr = fopen(path, "r");
