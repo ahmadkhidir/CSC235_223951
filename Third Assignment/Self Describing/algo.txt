@@ -1,0 +1,11 @@
+input = "1210"
+inp_len = LENGTH(INPUT)
+for (i=0; i<inp_len; i++)
+	current = input[i]
+	count = 0
+	for (j=0; j<inp_len; j++)
+		if (INT(input[j]) == i)
+			count++;
+	if (INT(current) != count)
+		return 0
+return 1
